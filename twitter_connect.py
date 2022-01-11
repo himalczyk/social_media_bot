@@ -45,3 +45,12 @@ from oauth_handler import api
 # for trend in trends_result[0]["trends"]:
 #     print(trend["name"])
 
+#get all twwets in which you are mentioned, like the tweet and follow the author
+# tweets = api.mentions_timeline()
+# for tweet in tweets:
+#     tweet.favorite()
+#     tweet.user.follow()
+
+#using cursor to get the last 100 tweets from your timeline
+# for tweet in tweepy.Cursor(api.home_timeline).items(100):
+#     print(f"{tweet.user.name} said: {tweet.text}")
