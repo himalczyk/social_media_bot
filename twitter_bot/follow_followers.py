@@ -1,6 +1,6 @@
 import tweepy
 import logging
-from oauth_handler import create_api
+from twitter_bot.oauth_handler import create_api
 import time
 
 logging.basicConfig(level=logging.info)

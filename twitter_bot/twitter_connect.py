@@ -1,4 +1,4 @@
-from oauth_handler import api
+from twitter_bot.oauth_handler import api
 
 #get last 20 entries in my timeline. 20 is default
 # timeline = api.home_timeline()
