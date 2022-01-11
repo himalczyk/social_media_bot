@@ -3,3 +3,4 @@ Automated managing of some social media stuff on Instagram, YouTube, Twitter and
 
 Using:
 - TweePy
+- Docker
